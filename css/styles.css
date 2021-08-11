@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* { 
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50pt;
+    margin: 0;
+}
+
+body:after{
+    display:none;
+    content: url(../images/1.jpg) url(../images/2.jpg) url(../images/3.jpg) url(../images/4.jpg) url(../images/5.jpg) url(../images/6.jpg) url(../images/7.jpg) url(../images/8.jpg);
+}
+
+.bg {
+    /* The image used */
+    background-image: url("../images/5.jpg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+#timer {
+
+    /* Make the timer center in the middle of the screen */
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
