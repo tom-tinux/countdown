@@ -30,3 +30,9 @@ body:after{
     transform: translate(-50%, -50%);
     color: white;
 }
+
+#preload {
+    display: none;
+    width: 1;
+    height: 1;
+}

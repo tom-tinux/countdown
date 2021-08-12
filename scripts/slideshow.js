@@ -1,16 +1,16 @@
 var slideTime = 2500; // 2.5 seconds
 var images = [];
 
-function preloadImage() {
+function loadImage() {
     for (var i = 0; i < arguments.length; i++) {
         var image = new Image()
-        image.src=preloadImage.arguments[i]
+        image.src=loadImage.arguments[i]
         images[i] = image.src;
     }
 }
 
 //-- usage --//
-preloadImage(
+loadImage(
     "./images/1.webp",
     "./images/2.webp",
     "./images/3.webp",
@@ -21,6 +21,7 @@ preloadImage(
     "./images/8.webp",
 )
 
+var imageCounter = 0;
 
 function changePicture() {
     const rndInt = Math.floor(Math.random() * 8 ) + 1;
