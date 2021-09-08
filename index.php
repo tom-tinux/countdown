@@ -8,7 +8,6 @@
 
 <body>
     <div id ="bg" class="bg"></div>
-    <div id="preload" class="preload"></div>
     <div id="timer">
         <h1> Doggie Timer:</h1>
         <h1 id="Placeholder"></h1>

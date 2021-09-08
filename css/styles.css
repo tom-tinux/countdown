@@ -31,7 +31,7 @@ body:after{
     color: white;
 }
 
-#preload {
+.preload {
     display: none;
     width: 1;
     height: 1;
